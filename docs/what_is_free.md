@@ -1,0 +1,55 @@
+## Free and immediately useful
+- DynamoDB, 25GB
+  - NoSQL database
+- Glue, 1 million objects
+  - ??
+- Systems Manager, 12 features
+  - Notably parameter store
+- Lambda, 1 million requests, X-Rat 100,000
+    - Run python and other middle tier apps
+    - Respond to HTTP
+    - Approximately one month of continuous compute time
+- SWF/Simple Workflow, 10,000 tasks
+- Step Functions, 4000 transitions  
+  - Suspendable flows of execution
+- SNS, 1 million messages
+    - message queue like 
+    - fan out messages to multiple lambdas
+    - Can listen to HTTP
+- SQS, 1 million messages
+    - Message queue
+    - Enable parallel and async patterns
+    - Protect limited resource from spikes in load
+- SES
+    - send email
+- Code Commit/CodeBuild/CodePipeline/CodeArtifact
+  - 5 Git Users
+  - 100 Build minutes (not much!)
+  - 1 Pipeline
+  - 2 GB
+  - You could also just use GitHub  
+- Well-Architected Tool
+  - ??
+- CloudWatch, 1 million API requests
+    - ops dashboard
+    - logging
+- CloudTrail, 1 Trail
+- Cognito, 50,000 monthly active users
+    - single sign on server
+- CloudFormation, 1000 operations
+    - Not sure how this compares to Terraform.
+    
+# Free and of dubious value to an app framework
+- Chime, wait, this is video conferencing?!
+- Glacier, 10 GB, pay to retrieve, assumes spend on s3.
+- Macie, S3 security scanning, assumes spend on s3.
+- License Manager, Assumes you are spending $ on ec2.
+- Database Migration, Assumes spend on RDS
+- HoneyCode, No-code spreadsheetlike apps?
+- Service Catalog - IT inventory?
+- Application Discovery Service - IT Inventory?
+- Migration Hub- EC2 lift-and-shift tool
+- Server Migration Service  
+- Storage Gateway- Assumes you have a datacenter at home or work.
+- Control Tower- multiaccount management
+- Organizations- Assumes you are a company
